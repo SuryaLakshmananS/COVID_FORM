@@ -10,20 +10,21 @@ body{
     width: 100px;
 }
 .form {
-    /* margin-top: 5%; */
-    /* display: inline-block; */
-    flex-direction: column;
-    gap: 10px;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 0.4em;
-    background-color: #ffffff;
-    border-radius: 25px;
-    transition: .4s ease-in-out;
-    height: 400px;
-    width: 300px;
-    align-items: center;
-    margin: auto;
+  margin-top: 8%;
+  /* display: inline-block; */
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 0.4em;
+  background-color: #ffffff;
+  border-radius: 25px;
+  transition: .4s ease-in-out;
+  height: 300px;
+  width: 300px;
+  align-items: center;
+  /* margin: auto; */
+  margin-left: 40%;
     /* margin-left: 40%; */
   }
   
