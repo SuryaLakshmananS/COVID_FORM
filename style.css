@@ -1,0 +1,123 @@
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.form-title{
+text-align: center;
+color: #204f72;
+}
+
+.alert{
+  width: 100%;
+  background: rgb(0, 255, 106);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 900;
+  display: none;
+}
+
+body {
+  background-color: #f8f8f8;
+  background-image: url('cov.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+}
+
+form {
+  width: 500px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 5px;
+  animation: slideIn 0.5s ease-in-out;
+}
+
+.form-group1 label{
+  display: contents;
+}
+
+label {
+  display:flex;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-hide{
+  display: none;
+}
+
+.form-hide1{
+  display: none;
+}
+
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.form-group label {
+  float: left;
+  width: 100px;
+}
+
+.form-group input,
+.form-group select {
+  float: left;
+  width: calc(100% - 110px);
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
